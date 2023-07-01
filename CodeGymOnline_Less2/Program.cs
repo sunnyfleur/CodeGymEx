@@ -10,6 +10,15 @@ namespace CodeGymOnline_Less2
     {
         static void Main(string[] args)
         {
+            string myName;
+            Console.InputEncoding = Encoding.Unicode;
+            Console.OutputEncoding = Encoding.Unicode;
+
+            Console.WriteLine("Enter Your Name: ");
+            myName = Console.ReadLine();
+            Console.WriteLine("My name is " + myName);
+            Console.ReadKey();
+            
         }
     }
 }
