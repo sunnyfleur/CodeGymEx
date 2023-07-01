@@ -14,9 +14,9 @@ namespace CodeGymOnline_Less2_Ex03
             float height;
             float area;
 
-            Console.WriteLine("Enter Width: ");
+            Console.Write("Enter Width: ");
             width = Convert.ToInt64(Console.ReadLine());
-            Console.WriteLine("Enter Height: ");
+            Console.Write("Enter Height: ");
             height = Convert.ToInt64(Console.ReadLine());
 
             area = width * height;
