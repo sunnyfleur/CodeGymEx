@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less3", "CodeGymOnline_Less3.csproj", "{BF9717CF-440D-4FAC-AB27-9C84C8065A68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less03_Ex02", "..\CodeGymOnline_Less03_Ex02\CodeGymOnline_Less03_Ex02.csproj", "{0997CB44-1CA7-4DC1-A666-0C692641AECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less03_Ex03", "..\CodeGymOnline_Less03_Ex03\CodeGymOnline_Less03_Ex03.csproj", "{1FAFF70F-D268-4A5C-8DB3-02D9A9B08392}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BF9717CF-440D-4FAC-AB27-9C84C8065A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF9717CF-440D-4FAC-AB27-9C84C8065A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF9717CF-440D-4FAC-AB27-9C84C8065A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0997CB44-1CA7-4DC1-A666-0C692641AECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0997CB44-1CA7-4DC1-A666-0C692641AECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0997CB44-1CA7-4DC1-A666-0C692641AECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0997CB44-1CA7-4DC1-A666-0C692641AECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAFF70F-D268-4A5C-8DB3-02D9A9B08392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAFF70F-D268-4A5C-8DB3-02D9A9B08392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAFF70F-D268-4A5C-8DB3-02D9A9B08392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAFF70F-D268-4A5C-8DB3-02D9A9B08392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
