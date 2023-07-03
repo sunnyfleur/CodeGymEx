@@ -24,9 +24,9 @@ namespace CodeGymOnline_Less03_Ex03
             if (number < 20)
                 return teens[number - 10];
             if (number < 100)
-                return tys[number / 10] + ((number % 10 != 0) ? " " : "") + units[number % 10];
+                return tys[number / 10] + ((number % 10 != 0) ? " " + units[number % 10] : "") ;
             if (number < 1000)
-                return units[number / 100] + " hundred" + ((number % 100 != 0) ? " " : "") + Read(number % 100);
+                return units[number / 100] + " hundred" + ((number % 100 != 0) ? " " + Read(number % 100) : "") ;
             else return "Out of limited input";
         }
     }
