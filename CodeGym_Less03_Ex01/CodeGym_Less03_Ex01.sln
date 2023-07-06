@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGym_Less03_Ex01", "CodeGym_Less03_Ex01.csproj", "{05DE9472-21FE-41BE-9E27-441D3287127C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less04_Ex01", "CodeGymOnline_Less04_Ex01.csproj", "{05DE9472-21FE-41BE-9E27-441D3287127C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less04_Ex02", "..\CodeGymOnline_Less04_Ex02\CodeGymOnline_Less04_Ex02.csproj", "{894BDBE2-CF38-4665-8241-66EB7D947244}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{05DE9472-21FE-41BE-9E27-441D3287127C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05DE9472-21FE-41BE-9E27-441D3287127C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05DE9472-21FE-41BE-9E27-441D3287127C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894BDBE2-CF38-4665-8241-66EB7D947244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894BDBE2-CF38-4665-8241-66EB7D947244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894BDBE2-CF38-4665-8241-66EB7D947244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894BDBE2-CF38-4665-8241-66EB7D947244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

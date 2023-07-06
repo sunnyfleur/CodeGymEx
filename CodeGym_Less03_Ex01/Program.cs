@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeGym_Less03_Ex01
+namespace CodeGymOnline_Less04_Ex01
 {
     internal class Program
     {
