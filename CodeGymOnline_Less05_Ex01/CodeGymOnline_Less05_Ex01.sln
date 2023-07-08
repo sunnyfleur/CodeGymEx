@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less05_Ex05",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less05_Ex06", "..\CodeGymOnline_Less05_Ex06\CodeGymOnline_Less05_Ex06.csproj", "{F074A537-900F-432A-A176-1B2DD2E8017D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less05_Ex07", "..\CodeGymOnline_Less05_Ex07\CodeGymOnline_Less05_Ex07.csproj", "{4F0255C7-A449-490C-A387-B0772F4EEB82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F074A537-900F-432A-A176-1B2DD2E8017D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F074A537-900F-432A-A176-1B2DD2E8017D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F074A537-900F-432A-A176-1B2DD2E8017D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0255C7-A449-490C-A387-B0772F4EEB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0255C7-A449-490C-A387-B0772F4EEB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0255C7-A449-490C-A387-B0772F4EEB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0255C7-A449-490C-A387-B0772F4EEB82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
