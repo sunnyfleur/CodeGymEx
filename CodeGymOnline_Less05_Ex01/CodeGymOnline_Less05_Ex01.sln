@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less05_Ex02",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less05_Ex03", "..\CodeGymOnline_Less05_Ex03\CodeGymOnline_Less05_Ex03.csproj", "{A079AD42-AA59-4817-83FE-FBAA6024F786}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less05_Ex04", "..\CodeGymOnline_Less05_Ex04\CodeGymOnline_Less05_Ex04.csproj", "{154C32B0-931E-47F4-AA59-625ED3DBBAF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less05_Ex05", "..\CodeGymOnline_Less05_Ex05\CodeGymOnline_Less05_Ex05.csproj", "{2174C558-90C8-46CA-AD0F-6B8B52C50058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_Less05_Ex06", "..\CodeGymOnline_Less05_Ex06\CodeGymOnline_Less05_Ex06.csproj", "{F074A537-900F-432A-A176-1B2DD2E8017D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{A079AD42-AA59-4817-83FE-FBAA6024F786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A079AD42-AA59-4817-83FE-FBAA6024F786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A079AD42-AA59-4817-83FE-FBAA6024F786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154C32B0-931E-47F4-AA59-625ED3DBBAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154C32B0-931E-47F4-AA59-625ED3DBBAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154C32B0-931E-47F4-AA59-625ED3DBBAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154C32B0-931E-47F4-AA59-625ED3DBBAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2174C558-90C8-46CA-AD0F-6B8B52C50058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2174C558-90C8-46CA-AD0F-6B8B52C50058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2174C558-90C8-46CA-AD0F-6B8B52C50058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2174C558-90C8-46CA-AD0F-6B8B52C50058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F074A537-900F-432A-A176-1B2DD2E8017D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F074A537-900F-432A-A176-1B2DD2E8017D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F074A537-900F-432A-A176-1B2DD2E8017D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F074A537-900F-432A-A176-1B2DD2E8017D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
