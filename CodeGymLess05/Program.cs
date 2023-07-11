@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeGymLess05
+namespace CodeGymLess06
 {
     public class Exchanging
     {
