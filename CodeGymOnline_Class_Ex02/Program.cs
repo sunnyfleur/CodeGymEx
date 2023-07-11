@@ -8,7 +8,25 @@ namespace CodeGymOnline_Class_Ex02
 {
     internal class Program
     {
-
+        public static int[] DecreasinglySort(ref int[] NumArray)
+        {
+            int arrayLength = NumArray.Length;
+            for (int i = 0; i < arrayLength - 1; i++)
+            {
+                var smallestVal = i;
+                for (int j = i + 1; j < arrayLength; j++)
+                {
+                    if (NumArray[j] < NumArray[smallestVal])
+                    {
+                        smallestVal = j;
+                    }
+                }
+                var tempVar = NumArray[smallestVal];
+                NumArray[smallestVal] = NumArray[i];
+                NumArray[i] = tempVar;
+            }
+            return NumArray;
+        }
         public static int[] IncreasinglySort(ref int[] NumArray)
         {
             var arrayLength = NumArray.Length;
