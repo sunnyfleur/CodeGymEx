@@ -21,6 +21,8 @@ namespace CodeGymOnline_SnakeEx
         const int panel = 10;
         bool gameOver, reset, isprinted, horizontal, vertical;
         string dir, pre_dir;
+        int speed=1;
+        int maxScore=0;
         //Char
         public const char fruitType1 = 'p';
         public const char fruitType2 = 'x';
@@ -30,8 +32,33 @@ namespace CodeGymOnline_SnakeEx
         char snakeTailChar = 'O';
         char fruitChar = 'O';
         char wallChar = '#';
+        
 
+        public int CheckMaxScore(int score)
+        {
 
+            if (score > maxScore)
+            {
+                maxScore = score;
+                return maxScore;
+            }
+            else return score;
+        }
+        public int Speed()
+        {
+            if (score < 20)
+            {
+               return  100;
+            }
+            if (score > 50)
+            {
+                return 50;
+            }
+            else
+            {
+                return 20;
+            }
+        }
         public char RandomFruitType()
         {
             int randomTypeIndex;
@@ -86,6 +113,7 @@ namespace CodeGymOnline_SnakeEx
         void randomQua()
         {
             fruitChar = RandomFruitType();
+            speed=Speed();
             
             fruitX = rand.Next(1, width - 1); //ko lay gia tri 0 va width vi BIEN
             fruitY = rand.Next(1, height - 1);//ko lay gia tri 0 va heigth vi BIEN
@@ -101,7 +129,7 @@ namespace CodeGymOnline_SnakeEx
                 Render();     //hien thi man hinh
 
                 if (reset) break;
-                Thread.Sleep(100); //chay process trong vong 1000ml 
+                Thread.Sleep(Speed()); //chay process trong vong 1000ml 
             }
             if (gameOver) Lose();
         }
@@ -146,7 +174,7 @@ namespace CodeGymOnline_SnakeEx
             switch (dir)
             {
                 case "LEFT": headX--; break;
-                case "RIGHT": headX++; break;
+                case "RIGHT": headX ++; break;
                 case "UP": headY--; break;
                 case "DOWN": headY++; break;
                 case "STOP":
@@ -172,23 +200,23 @@ namespace CodeGymOnline_SnakeEx
                     }
                     dir = pre_dir; break;
             }
-            //Cham tuong
+            //Wall
 
             if (headX <0)
             {
-                headX = width;
+                headX = width-1;
             }
             else if(headX > width)
             {
-                headX = 0;
+                headX = 1;
             }
             else if (headY < 0)
             {
-                headY = height;
+                headY = height-1;
             }
             else if (headY > height)
             {
-                headY = 0;
+                headY = 1;
             }
            
             //kiem tra diem an qua
@@ -279,7 +307,7 @@ namespace CodeGymOnline_SnakeEx
             Console.WriteLine("Ban da thua!");
             Console.WriteLine("- Nhan phim R de choi lai van moi");
             Console.WriteLine("- Nhan phim Q de ngung choi");
-
+            Console.WriteLine("- Diem cao nhat: " + Convert.ToString(CheckMaxScore(score)));
             while (true)
             {
                 keypress = Console.ReadKey();
