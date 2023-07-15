@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_SnakeGame", "CodeGymOnline_SnakeGame.csproj", "{7E72B159-7685-43BC-A54C-D1284C470933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGymOnline_CompleteSnakeGame", "..\CodeGymOnline_CompleteSnakeGame\CodeGymOnline_CompleteSnakeGame.csproj", "{EF648F96-CA99-4CE6-9736-4A2541CD8358}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E72B159-7685-43BC-A54C-D1284C470933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E72B159-7685-43BC-A54C-D1284C470933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E72B159-7685-43BC-A54C-D1284C470933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E72B159-7685-43BC-A54C-D1284C470933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF648F96-CA99-4CE6-9736-4A2541CD8358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF648F96-CA99-4CE6-9736-4A2541CD8358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF648F96-CA99-4CE6-9736-4A2541CD8358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF648F96-CA99-4CE6-9736-4A2541CD8358}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C160AF36-A9F2-4A0C-9C9A-C6061202A37E}
+	EndGlobalSection
+EndGlobal
