@@ -41,7 +41,7 @@ namespace CodeGymOnline_SnakeGame
                 MoveSnake();
                 CheckCollision();
                 Draw();
-                Thread.Sleep(300);
+                Thread.Sleep(100);
             }
         }
 
