@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AE50C0BA-55CF-4896-B33D-D5EC7D5861F2}</ProjectGuid>
+    <ProjectGuid>{6FD4FB69-98E2-46C5-A0FE-FA26908AF7A4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CodeGymOnline_Less08_Ex01</RootNamespace>
-    <AssemblyName>CodeGymOnline_Less08_Ex01</AssemblyName>
+    <RootNamespace>CodeGymOnline_Less09_Ex02</RootNamespace>
+    <AssemblyName>CodeGymOnline_Less09_Ex02</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,13 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Circle.cs" />
-    <Compile Include="ComperableCircle.cs" />
-    <Compile Include="CompareTo.cs" />
+    <Compile Include="Cylinder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Shape.cs" />
-    <Compile Include="Square.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -11,7 +11,7 @@ namespace CodeGymOnline_Less08_Ex01
         static void Main(string[] args)
         {
             ComperableCircle[] circles = new ComperableCircle[3];
-            circles[0] = new ComperableCircle(3.6);
+            circles[0] = new ComperableCircle(3.6,"blue",false);
             circles[1] = new ComperableCircle();
             circles[2] = new ComperableCircle(3.5, "indigo", false);
 
