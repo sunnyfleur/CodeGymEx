@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace CodeGymOnline_Less08_Ex01
 {
-    internal class Program
+    internal interface IComparer<Circle>
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        int Compare(Circle c1, Circle c2);
     }
 }

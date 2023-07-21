@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Circle.cs" />
+    <Compile Include="CircleComparator.cs" />
     <Compile Include="ComperableCircle.cs" />
     <Compile Include="CompareTo.cs" />
+    <Compile Include="IComparer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rectangle.cs" />

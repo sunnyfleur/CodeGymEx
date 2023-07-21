@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeGymOnline_Less08_Ex01
+namespace CodeGymOnline_Less10_Ex01
 {
-    internal class Program
+    internal interface IResizable
     {
-        static void Main(string[] args)
-        {
-            
-        }
     }
 }
