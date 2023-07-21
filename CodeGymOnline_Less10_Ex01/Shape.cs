@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CodeGymOnline_Less10_Ex01
 {
-    internal interface IResizable
+    public abstract class Shape
     {
-        void Resize(double percent);
+        public abstract double GetArea();
     }
 }

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace CodeGymOnline_Less10_Ex01
 {
-    internal interface IResizable
+    internal interface IColourable
     {
-        void Resize(double percent);
+        string HowToColour();
+        
     }
 }
