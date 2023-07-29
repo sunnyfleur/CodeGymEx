@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CodeGymOnline_Less12_Ex01
 {
-    internal class ReadTextFile
+    internal class ReadTextFileExample
     {
-        void ReadTextFile(string filePath)
+        public void ReadTextFile(string filePath)
         {
             try
             {
